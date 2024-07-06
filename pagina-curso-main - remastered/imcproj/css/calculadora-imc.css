@@ -1,0 +1,63 @@
+@import url('./style.css');
+@import url('./color.css');
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--cor-1);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-pricipal {
+
+    height: 30rem;
+}
+
+.card {
+    background-color: var(--cor-2);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2 {
+    margin-bottom: 1rem;
+
+}
+
+.card input {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+button {
+    background-color: var(--cor-3);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.resultado__num {
+    text-align: center;
+}
+
+
+.resultado__texto {
+    text-align: center;
+}
+
+.teste{
+    color: red;
+    text-decoration: underline;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

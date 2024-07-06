@@ -1,0 +1,123 @@
+@import url(/colors.css);
+
+
+
+body {
+    height: auto;
+    background-color: var(--cor-primaria);
+    position: relative;
+}
+
+header {
+    background-color: var(--cor-primaria);
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    align-items: center;
+    padding: 6px;
+}
+
+.logotipo {
+    height: 70px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    font-size: 2rem;
+}
+
+nav * {
+    color: var(--cor-quaternaria);
+    font-weight: bold;
+}
+
+nav *:hover {
+    color: var(--cor-terciaria);
+    transform: scale(1.1);
+}
+
+nav a:nth-child(2) {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    color: var(--cor-quaternaria);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.professores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.professores__interno {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.professores__cartao {
+    border: solid 2px var(--cor-terciaria);
+    width: 30rem;
+    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+    background-color: var(--cor-quaternaria);
+    border-radius: 10px;
+}
+
+.professores__cartao:hover {
+    transform: scale(1.01);
+    box-shadow: 7px 7px #FF7ED4;
+}
+
+.professores__cartao__foto {
+    width: 100%;
+    height: 80%;
+}
+
+.professores__cartao__rodape {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.professores__cartao__rodape__nome {
+    color: var(--cor-primaria);
+    font-size: 2rem;
+}
+
+.professores__cartao__rodape__tecnologia {
+    color: var(--cor-secundaria);
+}
+
+
+
+.footer_links {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+
+footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    background: #FFF3C7;
+    background: linear-gradient(180deg, #FFF3C7, #FFF3C7, #FFF3C7, #F1EEDC);
+}

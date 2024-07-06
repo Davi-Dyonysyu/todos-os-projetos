@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+.pessoas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cartao{
+background-color: burlywood;
+width: 20rem;
+height: 30rem;
+padding: 10px;
+border-radius: 10px;
+}
+
+.foto{
+    width: 100%;
+    height: 70%;
+}
+
+.nome{
+    color: rgb(146, 24, 177);
+    margin-bottom: 1rem;
+}
